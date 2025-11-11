@@ -50,6 +50,7 @@ Habilitar un canal básico pero efectivo de autogestión para clientes Prepago, 
 
 📁 `/diagrams`  
 - [`flujo-ussd.mmd`](./diagrams/flujo-ussd.mmd): flujo simplificado del menú y navegación USSD.
+- [`arquitectura-ussd.mmd`](./diagrams/arquitectura-ussd.mmd): arquitectura funcional e integración del canal.
 
 📁 `/docs`  
 - [`kpis.md`](./docs/kpis.md): TTGL/TTV y resultados funcionales.
