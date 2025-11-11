@@ -1,0 +1,18 @@
+flowchart TD
+  IN[*103#] --> M1[Menú Principal]
+  M1 --> S1[1. Consulta de saldo]
+  M1 --> N1[2. Ver mi número]
+  M1 --> B1[3. Bolsas promocionales]
+
+  B1 --> BV[1. Bolsa Voz]
+  B1 --> BD[2. Bolsa Datos]
+  B1 --> BM[3. Bolsa Música]
+
+  BV --> CV[(Confirmación)]
+  BD --> CD[(Confirmación)]
+  BM --> CM[(Confirmación)]
+
+  style IN fill:#f9f,stroke:#333,stroke-width:2px
+  style M1 fill:#bbf,stroke:#333
+  style B1 fill:#bbf,stroke:#333
+
