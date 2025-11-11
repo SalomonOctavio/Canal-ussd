@@ -1,11 +1,11 @@
 graph TD
   CLIENTE[Cliente Prepago]
   CELULAR[Teléfono Móvil]
-  USSDGW[Gateway USSD (*103#)]
-  OSB[Oracle Service Bus (OSB)]
-  PCRF[Huawei UPCC (PCRF)]
-  ICC[ALU/Nokia ICC]
-  ING[Aplicación de Configuración (ING)]
+  USSDGW["Gateway USSD (*103#)"]
+  OSB["Oracle Service Bus (OSB)"]
+  PCRF["Huawei UPCC (PCRF)"]
+  ICC["ALU/Nokia ICC"]
+  ING["Aplicación de Configuración (ING)"]
 
   CLIENTE --> CELULAR --> USSDGW
   USSDGW --> OSB
@@ -19,3 +19,4 @@ graph TD
   style PCRF fill:#cfc,stroke:#333
   style ICC fill:#cfc,stroke:#333
   style ING fill:#ffd,stroke:#333
+
